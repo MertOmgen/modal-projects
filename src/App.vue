@@ -58,14 +58,22 @@
 
 <button @click="handleClick">Click it</button>
 
+
+<!-- FORM -->
+<p>---------------------------------* FORM THINGS *-----------------------------------------</p>
+<FormComponent/>
+
+<!--  -->
+
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import FormComponent from './components/FormComponent.vue'
 
 export default {
   name: 'App',
-  components:{HelloWorld},
+  components:{HelloWorld,FormComponent},
 data(){
   return{
     header:'Fenerbahçe',
